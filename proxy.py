@@ -24,8 +24,9 @@ class ProxyPerson(IPerson):
         self.person.person_method()
 
 
-p1 = Person()
-p1.person_method()
+if __name__ == "__main__":
+    p1 = Person()
+    p1.person_method()
 
-p2 = ProxyPerson()
-p2.person_method()
+    p2 = ProxyPerson()
+    p2.person_method()
