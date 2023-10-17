@@ -1,10 +1,10 @@
 # Decide during run time what type of instance do you want
 # Person class could either be a Teacher or a Student
-from abc import ABCMeta, abstractclassmethod
+from abc import ABCMeta, abstractstaticmethod
 
 
 class IPerson(metaclass=ABCMeta):
-    @abstractclassmethod
+    @abstractstaticmethod
     def person_method():
         """
         Interface method
