@@ -23,6 +23,12 @@ Composite is a **structural design pattern** that lets you compose
 objects into tree structures and then work with these
 structures as if they were individual objects.
 
+## Dependency Injection
+The main idea is to separate the construction and usage of objects.
+Instances of classes (objects) rather than passing the classes themselves.
+Loose coupling between components and facilitate easier testing.
+Swappable components like in strategy pattern.
+Single responsibility of a class.
 
 ## Mixin
 A class which has no purpose on its own. It needs to be mixed in with another class to add functionality to that class.
