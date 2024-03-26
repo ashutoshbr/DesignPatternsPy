@@ -22,3 +22,8 @@ A **structural design pattern** that lets you provide a substitute or placeholde
 Composite is a **structural design pattern** that lets you compose
 objects into tree structures and then work with these
 structures as if they were individual objects.
+
+
+## Mixin
+A class which has no purpose on its own. It needs to be mixed in with another class to add functionality to that class.
+Multiple inheritance is used to achieve mixins in python.
